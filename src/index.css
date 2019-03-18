@@ -1,0 +1,61 @@
+
+body {
+  background-color: black;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  text-align: left;
+}
+.wrapper {
+  border-style: dotted;
+  border-color: white;
+  height: 600px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+  text-align:center;
+ }
+.header {
+  height: 100px;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+ }
+.card {
+  color: black;
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  background-color: white;
+ }
+.card p {
+  position: relative;
+  top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+button {
+  display: inline-block;
+  text-align:center;
+  position: relative;
+  top: 60px;
+  background-color:dimgray;
+  color: white;
+  border:none;
+  border-radius:20px;
+}
+.source {
+  position:relative;
+  top: 75px;
+}
