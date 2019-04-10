@@ -31,7 +31,7 @@ class App extends Component {
       <div className="card">
         <p>{this.state.card}</p>
         </div>
-        <button onClick={this.handleChange}>draw</button>
+        <button className="button secondary"onClick={this.handleChange}>draw</button>
 
         <p className="source">Oblique Strategies © 1975, 1978, and 1979 Brian Eno/Peter Schmidt </p>
         <p className="source"><a href="https://en.wikipedia.org/wiki/Oblique_Strategies">Wikipedia</a></p>

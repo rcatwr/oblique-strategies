@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'foundation-sites/dist/css/foundation.min.css'
 import './index.css';
+//import $ from 'jquery';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
