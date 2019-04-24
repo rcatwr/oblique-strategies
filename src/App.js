@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import oblique from './data/oblique';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
-import { Button, Heading, Container, Card, Columns } from 'react-bulma-components'
+import { Button, Heading, Container, Card, Columns, Section } from 'react-bulma-components'
 
 class App extends Component {
   constructor(){
@@ -24,13 +24,18 @@ class App extends Component {
   }
   render() {
     return (
-      <Container fluid>
+
+      <Section>
         <Columns>
           <Columns.Column></Columns.Column>
           <Columns.Column>
 
-          <Heading>OBLIQUE STRATEGIES</Heading>
-          <p>Over one hundred worthwhile dilemmas</p>
+          <Heading
+            size={3}>OBLIQUE STRATEGIES</Heading>
+          <Heading
+            subtitle size={5}
+            >Over one hundred worthwhile dilemmas
+          </Heading>
 
 
       <Card>
@@ -50,7 +55,7 @@ class App extends Component {
         </Columns.Column>
         <Columns.Column></Columns.Column>
       </Columns>
-    </Container>
+    </Section>
     );
   }
 }

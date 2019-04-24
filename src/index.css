@@ -10,31 +10,16 @@ body {
 }
 h1 {
   text-align: left;
+  margin: 10px;
 }
-.wrapper {
-  border-style: dotted;
-  border-color: white;
-  height: 600px;
-  width: 400px;
-  margin: 0 auto;
-  position: relative;
-  top: 30px;
-  text-align:center;
- }
-.header {
-  height: 100px;
-  width: 300px;
-  margin: 0 auto;
-  position: relative;
-  top: 40px;
- }
+
 .card {
   color: black;
   height: 200px;
   width: 300px;
   margin: 0 auto;
   position: relative;
-  top: 60px;
+  top: 20px;
   background-color: white;
  }
 .card p {
