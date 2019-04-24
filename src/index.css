@@ -38,24 +38,16 @@ h1 {
   background-color: white;
  }
 .card p {
-  position: relative;
-  top: 40px;
-  font-size: 20px;
   font-weight: bold;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding: 50px 25px 50px 25px;
+  text-align: center;
 }
 button {
-  display: inline-block;
-  text-align:center;
   position: relative;
   top: 70px;
-  background-color:dimgray;
-  color: white;
-  border:none;
-  border-radius:20px;
 }
 .source {
+  text-align: center;
   position:relative;
   top: 75px;
 }

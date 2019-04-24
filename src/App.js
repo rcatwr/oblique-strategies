@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import oblique from './data/oblique';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
-import { Button, Heading } from 'react-bulma-components'
+import { Button, Heading, Container, Card, Columns } from 'react-bulma-components'
 
 class App extends Component {
   constructor(){
@@ -24,20 +24,33 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="wrapper">
-        <div className="header">
+      <Container fluid>
+        <Columns>
+          <Columns.Column></Columns.Column>
+          <Columns.Column>
+
           <Heading>OBLIQUE STRATEGIES</Heading>
           <p>Over one hundred worthwhile dilemmas</p>
 
-        </div>
-      <div className="card">
+
+      <Card>
         <p>{this.state.card}</p>
-        </div>
-        <Button onClick={this.handleChange}>draw</Button>
+      </Card>
+        <Button
+            onClick={this.handleChange}
+            color="primary"
+            size="medium"
+            fullwidth="true"
+            >
+              draw
+        </Button>
 
         <p className="source">Oblique Strategies © 1975, 1978, and 1979 Brian Eno/Peter Schmidt </p>
         <p className="source"><a href="https://en.wikipedia.org/wiki/Oblique_Strategies">Wikipedia</a></p>
-      </div>
+        </Columns.Column>
+        <Columns.Column></Columns.Column>
+      </Columns>
+    </Container>
     );
   }
 }
